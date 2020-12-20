@@ -1,4 +1,58 @@
-## Ben Hammond Denver, Colorado
+# BEN HAMMOND
+
+(720) 436-7452| me@benhammondmusic.com | Denver, CO | [Github](github.com/benhammondmusic) | [LinkedIn](linkedin.com/in/benhammondmusic)
+
+### SOFTWARE ENGINEER
+
+Full stack dev with 15+ years running a tech-forward music business. Driven to break down complex problems into actionable tasks, bringing an entertainer’s eye to audience engagement and an improviser’s ear to the development of collective ideas.
+
+### SKILLS
+
+**LANGUAGES**: JavaScript, JQuery, Python, HTML, CSS
+
+**PROFICIENCIES**: Problem Solving, Web Scraping, Web API
+
+**TECHNOLOGIES**: Windows/Mac/Lunx, Office Suites (Microsoft/Google/Open), Git, Github, Max/MSP, VSCode, Atom, FTP/SFTP, Finale, Protools, Photoshop, Final Cut Pro
+
+**COMMUNICATIONS**: MailChimp, Slack, Zoom, Facebook Live, Facebook and Instagram Business Suite,
+
+### PROJECTS
+
+**BenHammondMusic Website**
+
+- Maintained and updated multi-page static website for my music business services. Utliizes HTML, CSS and occasional JS.
+- Usage of FTP software, Web Hosting services, Domain registration and forwarding, Email forwarding and troubleshooting.
+
+**Gig Uploader**
+
+- Used Python with Beautiful Soup to automate routine gig promotion to multiple services simultaneously (BandsInTown, SongKick, Dubsado, Strumsy, Spotify, Google and more)
+- Read to and from spreadsheet files, web-scraped to interact with websites lacking a public API
+- Usage of .gitIgnore files to seperate and protect sensitive log in data
+
+**Dubsado Deposit Tracker**
+
+- Used Python with Beautiful Soup to extend functionality of Dubsado CMS
+- One-click calculation summing all currently held deposits.
+- Utilzed Git on Github for version control
+
+### PROFESSIONAL EXPERIENCE
+
+**Ben Hammond Music** - Owner, 2006-Current
+
+- Delivered an exceptional customer experience; consistently ranked within the top ten service centers
+- Provided first point of contact for customers, acknowledged client and addressed needs
+- Expanded role and proactively learned additional skills to improve the overall company brand image
+- Consistently met individual and team goals; drove revenue and increased sales by 14% within one year
+
+### EDUCATION
+
+- **General Assembly**, Software Engineering Immersive, (Full-Stack) _(currently enrolled)_
+
+- **McGill University, Montreal, QC Canada** B.Mus. Honours in Music Technology
+
+<!-- OLD ONE BELOW -->
+
+<!-- ## Ben Hammond Denver, Colorado
 
 *me@benhammondmusic.com*
 
@@ -6,13 +60,11 @@
 
 - Motivated, multifaceted musician and group leader with theoretical and practical background in computers and new media production.
 
-### Education
+### Education -->
 
-B.Mus. Honours in Music Technology
-McGill University, Montreal, QC Canada
-Concentration in Jazz Voice; 3.8 G.P.A.
+<!-- Concentration in Jazz Voice; 3.8 G.P.A. -->
 
-2006
+<!-- 2006
 
 ### Awards
 
@@ -25,13 +77,13 @@ Sold-out performance at the Montreal International Jazz Festival with Effusion a
 Vice President of Administration, Arranger, Soloist, and Vocal Percussionist of Effusion A Cappella. Group has toured in Northeastern US and across Canada, including Festival 500 featuring Bobby McFerrin. New England ICCA Champions in 2004 and placed in the International Finals in New York City. Personally received ICCA Beatbox Award in 2003.
 Recorded on Juno-nominated album “Maple Groove” by Ranee Lee on Justin Time Records.
 
-### Technical Skills
+### Technical Skills -->
 
-- **Languages:** HTML/CSS/Javascript, Python
-- **Tech:** Windows, Mac, and Linux OS. VSCode, Git, Github, Max/MSP, Finale, Photoshop/GIMP, Office/Google Docs, Protools, Final Cut Pro
+<!-- - **Languages:** HTML/CSS/Javascript, Python -->
+<!-- - **Tech:** Windows, Mac, and Linux OS. VSCode, Git, Github, Max/MSP, Finale, Photoshop/GIMP, Office/Google Docs, Protools, Final Cut Pro -->
 
-Web
-Over 15 years experience developing simple websites for musicians, authors and other local businesses
+<!-- Web
+Over 15 years experience developing simple websites for musicians, authors and other local businesses -->
 
 <!-- #### Work Experience
 
