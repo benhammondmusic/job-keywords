@@ -46,8 +46,7 @@ Full stack dev with 15+ years running a tech-forward music business. Driven to b
 
 ### EDUCATION
 
-- **General Assembly**, Software Engineering Immersive, (Full-Stack) _(currently enrolled)_
-
+- **General Assembly**, Software Engineering Immersive, Full-Stack _(currently enrolled)_
 - **McGill University, Montreal, QC Canada** B.Mus. Honours in Music Technology
 
 <!-- OLD ONE BELOW -->
