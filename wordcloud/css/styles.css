@@ -2,9 +2,13 @@
   border-radius: 10px;
 }
 body {
+  /* display: inline; */
   display: flex;
   flex-wrap: wrap;
 }
 .word {
+  float: left;
   margin: 3px;
+  transform: rotate(-20deg);
+  background-color: antiquewhite;
 }

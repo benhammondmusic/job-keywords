@@ -293,11 +293,11 @@ for (let dumpWord of dumpArray) {
   }
 }
 
-let sortedWords = [...wordOccurances.entries()].sort((a, b) => b[1] - a[1]);
+let sortedWords = [...wordOccurances.entries()].sort((a, b) => a[1] - b[1]);
 console.log(sortedWords);
 
 sortedWords.forEach((word) => {
-  const $wordElem = $(`<span class="word">${word[0]}</span>`);
+  const $wordElem = $(`<div class="word">${word[0]}</div>`);
   $wordElem.css(`font-size`, `${word[1] * 2}px`);
   $("body").append($wordElem);
 });
