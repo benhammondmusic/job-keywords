@@ -274,32 +274,24 @@ Knowledge of Python a plus
 Experience with operating system internals, filesystems, databases, network, compiler also a plus
 Familiarity with Linux`;
 
-// let dumpNoCommas = "";
-// let dumpNoNewline = "";
-// let dumpNoPeriods = "";
-// dumpNoCommas = dump.replaceAll(",", " "); //.replace(".", " ");
+const commonWords = ["", "the", "of", "and", "a", "to", "in", "is", "you", "that", "it", "he", "was", "for", "on", "are", "as", "with", "his", "they", "I", "at", "be", "this", "have", "from", "or", "one", "had", "by", "word", "but", "not", "what", "all", "were", "we", "when", "your", "can", "said", "there", "use", "an", "each", "which", "she", "do", "how", "their", "if", "will", "up", "other", "about", "out", "many", "then", "them", "these", "so", "some", "her", "would", "make", "like", "him", "into", "time", "has", "look", "two", "more", "write", "go", "see", "number", "no", "way", "could", "people", "my", "than", "first", "water", "been", "call", "who", "oil", "its", "now", "find", "long", "down", "day", "did", "get", "come", "made", "may", "part"];
 
 let dumpNoPunc = dump.replace(/[0123456789”–?.,\/#!$%\^&\*;:{}=\-_`~()\r\n'`"’]/g, " ");
 let dumpUP = dumpNoPunc.toUpperCase();
 let dumpArray = dumpUP.split(" ");
 
-// console.log(dumpArray);
-let words = {};
+const wordOccurances = new Map();
 // iterate word Dump to add
-for (let word of dumpArray) {
-  // check word Array
-  //   console.log("word:", word);
-
-  if (Object.keys(words).includes(word)) {
-    words[word]++;
-    // console.log("words[word]", words[word]);
+for (let dumpWord of dumpArray) {
+  if (wordOccurances.has(dumpWord)) {
+    let count = wordOccurances.get(dumpWord);
+    wordOccurances.set(dumpWord, ++count);
   } else {
-    words[word] = 1;
-    // console.log("words[word]", words[word]);
+    if (!commonWords.includes(dumpWord.toLowerCase())) {
+      wordOccurances.set(dumpWord, 1);
+    }
   }
 }
 
-console.log(words);
-
-// sort object into array
-let sortedArray = [];
+let sortedWords = [...wordOccurances.entries()].sort((a, b) => b[1] - a[1]);
+console.log(sortedWords);
