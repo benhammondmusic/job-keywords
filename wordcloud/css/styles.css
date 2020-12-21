@@ -1,0 +1,10 @@
+* {
+  border-radius: 10px;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.word {
+  margin: 3px;
+}
