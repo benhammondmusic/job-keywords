@@ -1,6 +1,47 @@
 // count words in random combo of applicable job postings
 
-let dump = `
+let dump = `This position supports the organization’s Software Development efforts that build new software functionality, enable effective system integrations, improve system security and enhance existing software application performance and capability.
+This position will also be responsible for designing, coding, documenting, testing and debugging code across a number of end user/business applications. May also be involved in requirements gathering and documentation as well as leading smaller projects. The role utilizes multiple lower-level and object-oriented programming languages and working with complex relational databases.
+Responsibilities:
+Essential Duties and Responsibilities include the following:
+
+Develop, test, and maintain software applications
+Work with business unit stakeholders to understand their challenges
+Generate software specifications to meet business challenges via improved efficiency, security, and quality
+Support the design and development of SQL databases
+Commitment to quality
+Prepare development estimates and schedules
+Provide technical support for our internal customers
+Adhere to defined standards and practices across the full software development life cycle
+Work collaboratively with other members of the development team
+Work effectively across organizational boundaries
+Qualifications:
+Requirements:
+
+
+BS in Computer Science or related degree, or equivalent work experience
+Previous knowledge of EMV cards or payment technologies
+3-7 years of relevant software development experience
+Proficiency with C# and .NET development
+3+ years of experience with SQL Server and SSMS
+Experience with database design, optimization, and development (queries, stored procedures, etc.)
+Familiarity with LINQ/Entity Framework
+Familiarity with WPF
+Proficiency in user interface design
+Experience working in an Agile environment
+Experience with issue tracking systems
+Proficiency with version control systems (e.g. Git)
+Ability to manage multiple concurrent tasks in a timely manner
+Strong analytical and problem-solving skills
+Excellent communications skills
+Experience with web technologies, including XML, ASP.NET, JSON, JavaScript, jQuery, HTML, is a plus
+Familiarity with PCI and the challenges of working in a PCI-compliant environment is a plus
+
+_______________________________________________________________________________________________________________________________________________________________________________________
+
+Company Overview:
+
+With more than 20 years of experience as a trusted partner to financial institutions, CPI Card Group® is a leading provider in payment card production and related services, offering end-to-end credit, debit, and prepaid payment solutions delivered physically, digitally and on-demand. Covering a broad range of needs, our solutions include EMV chip, mag stripe, RFID, dual interface, metal, personalization, packaging, fulfillment, instant issuance, digital payment services, and more.
 We're looking for a Software Engineer to join our Integrations team. Driven by our API, we are rapidly expanding our platform. Our 3rd party integrations are key to our long term strategy to provide highly customized solutions for our most demanding merchants. Merchants use ReCharge + a mix of integrations to create new solutions that were never before possible.
 
 Our stack includes: Python, Flask, Redis, Docker, GCP, Terraform, Memcached
@@ -272,10 +313,75 @@ Extensive experience building and owning large-scale, multi-threaded, geographic
 Highly skilled at developing and debugging in C/C++, Java, or Go
 Knowledge of Python a plus
 Experience with operating system internals, filesystems, databases, network, compiler also a plus
-Familiarity with Linux`;
+Familiarity with Linux JavaScript: 3 years (Preferred)
+
+Full Job Description
+We are looking for a talented and energetic full-stack engineer to help us accomplish our mission of disrupting the customer communication space. You'll work closely with the CTO and other engineers to scope, build, and deploy new features and improvements.
+
+Must have:
+
+Experience in Full Stack Development of SaaS products:
+Front End - Fluency in a modern webtech stack including HTML, JS frameworks (Angular/React/VueJS), CSS, REST
+Backend - Good grasp of algorithms, design patterns, and data structures. Experience Javascript/Node.js is a plus
+API - Ability to integrate with third-party APIs and libraries. Bonus if you have experience designing, implementing, and deploying new APIs
+Database - Experience working with Relational & NoSQL databases.
+Nice to have:
+
+Familiarity with AWS products and services. Experience with EC2, Lambda, RDS is a plus
+Experience integrating with messaging platforms (e.g. Facebook, Twitter, Twilio)
+Contributed to a product/service across the entire development lifecycle: from concept to launch
+Passion for data. Budding data geeks apply here!
+VR development, 3 years (Preferred)
+
+UE4 replication, 3 years (Required)
+
+Full Job Description
+ABOUT THE COMPANY:
+
+Since 2014, Soundscape VR(SVR) has been the leader of music in every reality. As a groundbreaking music, arts, and gaming VR platform enabling a new generation of live concerts, music experience, and sound visualization; SVR has paved the way for the next technological expansion of the music industry. Friends across the globe can listen, fly, paint, explore, watch, dance, compete, and more in a sonic-visual adventure functioning as a 24/7 music festival. SVR's Sonic AI allows the software to visualize any genre of music, letting every user have their ideal audio experience. Engineered by an independent collective of artists, musicians, and developers to be the premier destination for musical and artistic virtual reality content, SVR is regarded as one of the most immersive and technically impressive virtual reality apps in the world. SVR's reputation extends far beyond just the virtual world, becoming well known for its live music and VR innovation after unveiling "SVR LIVE" - the world's first mixed reality live music stage - at Burning Man in 2018.
+
+With over 60,000 users comprising the Soundscape community, Soundscape VR is featured on the Oculus Home and Steam platforms. Soundscape VR is part of the Soundscape Universe, a collection of virtual, mixed, and augmented reality software enabling a new generation of music and art. For news on exciting partnerships with musicians, festivals, and production companies, and to learn more about the VR experience, please visit https://www.soundscapeuniverse.com
+
+ABOUT THE POSITION:
+
+The ideal candidate will have the following qualifications:
+
+Built past projects using Unreal Engine 4 and comfortable using the engine, proficient in blueprint code projects
+
+5+ years real-time rendering experience (UE4 preferred)
+
+3+ years of experience working with VR development (forward rendering preferred
+
+3+ years of replication networking experience with Steam/Oculus online subsystems for player networking
+
+3+ years of experience using Perforce or other source control
+
+Deep knowledge of C++ and Visual Studio
+
+Ability to quickly learn and pick up new things
+
+Self-Starter able to stay disciplined working from home
+
+This role is 100% remote with the ability to work-from-home while making your own schedule. This position is not for novice developers, we are looking for UE4 experts who are extremely passionate about music, art, gaming, and VR. We are already in the process of working with major musical artists, you must be able to deliver quality code befitting of these musical legends. We recommend downloading Soundscape VR for free and trying out the software before applying so that you can best understand the platform.
+
+A cover letter is highly recommended for your best chance at being selected for an interview.
+
+Job Type: Full-time
+
+Pay: $40,000.00 - $80,000.00 per year
+
+Schedule:
+
+Monday to Friday
+Experience:
+
+VR development: 3 years (Preferred)
+UE4 replication: 3 years (Required)
+`;
 
 const commonWords = [
   "",
+  "ll",
   "us",
   "such",
   "within",
@@ -351,15 +457,17 @@ const commonWords = [
   "like",
   "him",
   "into",
+  "preferred",
+  "years",
   "time",
   "has",
   "look",
   "two",
   "more",
-  "write",
+
   "go",
   "see",
-  "number",
+
   "no",
   "way",
   "could",
@@ -408,7 +516,7 @@ console.log(sortedWords);
 
 sortedWords.forEach((word) => {
   const $wordElem = $(`<div class="word">${word[0]}</div>`);
-  const $ignore = $(`<button class="ignore">x</button>`);
+  const $ignore = $(`<button class="ignore">${word[1]}</button>`);
   $wordElem.css(`font-size`, `${word[1] * 2}px`);
   $ignore.css(`font-size`, `${word[1]}px`);
   $wordElem.append($ignore);
@@ -416,6 +524,7 @@ sortedWords.forEach((word) => {
 });
 
 $(".ignore").click(function (e) {
-  let $w = e.target.closest("div").remove();
-  // console.log($w.innerText);
+  let $w = e.target.closest("div");
+  commonWords.push($($w).contents().get(0).nodeValue); // need to make common words persistent across sessions
+  $w.remove();
 });

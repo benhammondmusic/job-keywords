@@ -11,6 +11,7 @@ body {
   /* margin: 3px; */
   transform: rotate(-5deg);
   background-color: antiquewhite;
+  border: 1px solid white;
 }
 .ignore {
   margin: 0;
