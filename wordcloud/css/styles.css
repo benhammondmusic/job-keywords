@@ -8,7 +8,11 @@ body {
 }
 .word {
   float: left;
-  margin: 3px;
-  transform: rotate(-20deg);
+  /* margin: 3px; */
+  transform: rotate(-5deg);
   background-color: antiquewhite;
+}
+.ignore {
+  margin: 0;
+  padding: 0;
 }
