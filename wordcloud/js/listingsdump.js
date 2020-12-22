@@ -494,6 +494,20 @@ const commonWords = [
   "part",
 ];
 
+const storedIgnoredWords = JSON.parse(localStorage.getItem("ignoredWords"));
+
+// if we've added to the ignored words list to save between sessions use it, otherwise just ignore thses hardcoded common words
+let ignoredWords;
+if (storedIgnoredWords == null) {
+  ignoredWords = commonWords;
+  console.log("no saved words");
+  console.log("using common words:", ignoredWords);
+} else {
+  ignoredWords = storedIgnoredWords;
+  console.log("loaded saved words.");
+  console.log("using stored words:", ignoredWords);
+}
+
 let dumpNoPunc = dump.replace(/[0123456789”–?.,\/#!$%\^&\*;:{}=\-_`~()\r\n'`"’]/g, " ");
 let dumpUP = dumpNoPunc.toUpperCase();
 let dumpArray = dumpUP.split(" ");
@@ -505,15 +519,17 @@ for (let dumpWord of dumpArray) {
     let count = wordOccurances.get(dumpWord);
     wordOccurances.set(dumpWord, ++count);
   } else {
-    if (!commonWords.includes(dumpWord.toLowerCase())) {
+    if (!ignoredWords.includes(dumpWord.toLowerCase())) {
       wordOccurances.set(dumpWord, 1);
     }
   }
 }
 
+// reverse sort by word occurance (fewest to most)
 let sortedWords = [...wordOccurances.entries()].sort((a, b) => a[1] - b[1]);
-console.log(sortedWords);
+// console.log(sortedWords);
 
+// DOM: build word bubbles with ignore buttons, growing in size
 sortedWords.forEach((word) => {
   const $wordElem = $(`<div class="word">${word[0]}</div>`);
   const $ignore = $(`<button class="ignore">${word[1]}</button>`);
@@ -523,8 +539,13 @@ sortedWords.forEach((word) => {
   $("body").append($wordElem);
 });
 
+// if num button is clicked, remove word bubble and add word to common words to be ignored
 $(".ignore").click(function (e) {
   let $w = e.target.closest("div");
-  commonWords.push($($w).contents().get(0).nodeValue); // need to make common words persistent across sessions
+  ignoredWords.push($($w).contents().get(0).nodeValue.toLowerCase());
+
+  //to make common/ignored words persistent across sessions by storing to localStorage
+  localStorage.setItem("ignoredWords", JSON.stringify(ignoredWords));
+
   $w.remove();
 });
