@@ -39,18 +39,13 @@ Full stack dev with 15+ years running a tech-forward music business. Driven to b
 
 **Ben Hammond Music** - Owner Artist, 2006-Current
 
-- Integrated advanced signal processing via modular effects hardware and more non-standard performance techniques to augment my solo and small format bands, resulting in 30%-100% higher performance fees, while simultaneously saving the clients between 30%-50% (as compared to a traditional larger format band)
-- Leveraged a continuosly expanding repertoire of over 1,000 songs to secure more than more than 3,000 paid performances in 29 states and 9 countries.
+- Integrated advanced signal processing via modular effects hardware and more non-standard performance techniques to augment my solo and small format bands, resulting in 30%-100% higher performance fees, while simultaneously saving the clients between 30%-50%.
+- Leveraged 1,000 song repertoire to secure more than more than 3,000 paid performances in 29 states and 9 countries.
 - Continously developed and maintained BenHammondMusic.com, implementing both static and AJAX driven pages to showcase multimedia content and business information.
-- Obtained new clients, negotiated project requirements and compensation. Average event rate increased 100% in a 3 year period.
-- Increased average project fee by 100% and maintained 5-star reviews on the Knot.com over the previous 3 years by implementing a customer and project management system to streamline client interactions, provide integrated credit card services, automate invoicing and contracting, and track changing project requirements.
-- Cultivated opt-in email list and multiple social media profiles (Instagram and Facebook Business Pages) with over 10k combined followers.
-- Dynamically pivoted to a streaming-based event model during COVID lockdown, implementing online donation buttons and reaching x thousand views on some videos. These streams resulted in a paid 8 week live-streaming performance contract with SketchUp for their online conference.
-
-- Team leader (contracting and coordinating a rotating network of musicians)
-- Project manager (albums, music videos,
--
--
+- Increased average project fee by 100% and maintained 5-star reviews on the Knot.com over the previous 3 years by implementing roject management system to streamline client interactions, integrate credit cards, and track changing project requirements.
+- Cultivated opt-in email list social media profiles with over 10k combined followers.
+- Excellent written, verbal and non-verbal communcation skills navigating both one-time and ongoing clients, along with a rotating ensemble of sub-contracted musicians. Comfortable as a self-driven soloist, a team-leader, and as foundational support for other artists' projects.
+- Dynamically pivoted to a streaming-based event model during COVID lockdown, implementing online donation buttons and exceeding 20,000 views over multiple events. The demostration of musical skill combined with technical competance caught resulted in a paid 8 week live-streaming contract with SketchUp for their online conference entertainment.
 
 ### EDUCATION
 
