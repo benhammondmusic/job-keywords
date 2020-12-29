@@ -16,4 +16,6 @@ body {
 .ignore {
   margin: 0;
   padding: 0;
+  color: white;
+  background-color: saddlebrown;
 }

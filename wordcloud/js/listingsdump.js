@@ -520,6 +520,7 @@ for (let dumpWord of dumpArray) {
     wordOccurances.set(dumpWord, ++count);
   } else {
     if (!ignoredWords.includes(dumpWord.toLowerCase())) {
+      // TODO: ignore plurals, gerunds, etc "ing" "es" "s"
       wordOccurances.set(dumpWord, 1);
     }
   }
