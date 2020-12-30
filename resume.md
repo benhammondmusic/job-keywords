@@ -23,17 +23,11 @@ Full stack dev with 15+ years running a tech-forward music business. Driven to e
 - Maintained and updated multi-page website for my music business services. Current and former techs utilize HTML, CSS, JS, AJAX to showcase multimedia content and business information.
 - Usage of FTP software, Web Hosting services, Domain registration and forwarding, Email forwarding and troubleshooting.
 
-**Gig Uploader**
+**Web Scraping Utilities**
 
-- Used Python with Beautiful Soup to automate routine gig promotion to multiple services simultaneously (Spotify, Google and more)
-- Read to and from spreadsheet files, web-scraped to interact with websites lacking a public API
-- Usage of .gitIgnore files to separate and protect sensitive log in data
-
-**Dubsado Deposit Tracker**
-
-- Coded in Python with Beautiful Soup to extend functionality of Dubsado web application
-- One-click calculation summing all currently held deposits.
-- Utilized Git and Github for version control
+- Used Python with Beautiful Soup and Selenium to automate routine web tasks and extend functionality of project management systems
+- Read to and from spreadsheet files, web-scraped to interact with websites lacking a public API, parsed and interacted with sites using Angular
+- Utilized Git and GitHub for version control; incorporated .gitIgnore files protect login data
 
 ### PROFESSIONAL EXPERIENCE
 
