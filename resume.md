@@ -10,7 +10,7 @@ Full stack dev with 15+ years running a tech-forward music business. Driven to b
 
 **LANGUAGES**: JavaScript, JQuery, Python, HTML, CSS
 
-**PROFICIENCIES**: Problem Solving, Web Scraping, Web API
+**PROFICIENCIES**: Expert in Music Theory and Performance, Problem Solving, Web Scraping, Web API
 
 **TECHNOLOGIES**: Windows/Mac/Lunx, Office Suites (Microsoft/Google/Open), Git, Github, Max/MSP, VSCode, Atom, FTP/SFTP, Finale, Protools, Photoshop, Final Cut Pro
 
@@ -31,7 +31,7 @@ Full stack dev with 15+ years running a tech-forward music business. Driven to b
 
 **Dubsado Deposit Tracker**
 
-- Used Python with Beautiful Soup to extend functionality of Dubsado CMS
+- Coded in Python with Beautiful Soup to extend functionality of Dubsado web application
 - One-click calculation summing all currently held deposits.
 - Utilzed Git and Github for version control
 
@@ -39,14 +39,17 @@ Full stack dev with 15+ years running a tech-forward music business. Driven to b
 
 **Ben Hammond Music** - Owner Artist, 2006-Current
 
-- Integrated advanced signal processing via modular effects hardware to augment my sound, resulting in 30%-100% higher performance fees, while simultaneously saving the clients between 30%-50%.
-- Leveraged 1,000 song repertoire to secure more than more than 3,000 paid performances in 29 states and 9 countries.
-- Continously developed and maintained BenHammondMusic.com,
-- Increased average project fee by 100% and maintained 5-star reviews on the Knot.com over the previous 3 years by implementing roject management system to streamline client interactions, integrate credit cards, and track changing project requirements.
-- Cultivated opt-in email list and social media presence with over 10k combined followers.
-- Ideated, composed, produced and performed 3 full length albums and a live show DVD. Independently marketed and sold over 14,000 discs. Produced multiple music videos with over 175,000 Youtube views.
+- _Engineering:_ Integrated advanced signal processing via modular hardware to augment my sound, resulting in 30%-100% higher performance fees, while simultaneously saving the clients between 30%-50%. Technical and artistic skills combined with a 1,000 song and growing repertoire has secured more than 3,000 paid performances in 29 states and 9 countries.
+
+- _Sales:_ Increased average project fee by over 100% and maintained 5-star reviews on the Knot.com over the previous 3 years by implementing customized software solutions to streamline client interactions, integrate credit cards, and track changing project requirements.
+
+- _Online Marketing:_ Cultivated opt-in email list and social media presence with over 10k combined followers. Dynamically pivoted to a streaming model during COVID lockdown, exceeding my normal hourly earnings and amassing 20,000 views over the event series. Resulted in a paid, 8-week contract with SketchUp for their 2020 online conference entertainment.
+
+- _Project Management:_ Ideated, composed, produced and performed 3 full length albums and a live show DVD. Independently marketed and sold over 14,000 discs. Produced multiple music videos with over 175,000 Youtube views.
+
 - Excellent written, verbal and non-verbal communcation skills in planning and execution phases. Comfortable negotiating and understanding client needs, assembling and directing a team, managing production, and exceeding expectations under pressure.
-- Dynamically pivoted to a streaming-based event model during COVID lockdown, implementing online donation buttons and exceeding 20,000 views over multiple events. Resulted in a paid 8 week live-streaming contract with SketchUp for their 2020 online conference entertainment.
+
+-
 
 ### EDUCATION
 
